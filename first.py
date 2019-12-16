@@ -7,10 +7,10 @@ from flask import (
 	request
 )
 
-server = 'restinpythonserver.database.windows.net'
+server = 'rest_in_pythonserver.database.windows.net'
 database = 'Mydatabase'
-username = 'restinpythonadmin'
-password = 'DominikaCupkova1'
+username = 'yorkbros'
+password = '88888888'
 driver= '{ODBC Driver 17 for SQL Server}'
 cnxn = pyodbc.connect('DRIVER='+driver+';SERVER='+server+';PORT=1433;DATABASE='+database+';UID='+username+';PWD='+ password)
 cursor = cnxn.cursor()
